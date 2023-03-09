@@ -11,7 +11,11 @@ var usersRouter = require('./routes/users');
 const url = process.env.MONGDODB_URL;
 
 var app = express();
+<<<<<<< HEAD
 //Nguyen DUy Nien
+=======
+// Nguyen Duy Nien 1911037311
+>>>>>>> NguyenDuyNien
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
